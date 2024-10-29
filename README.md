@@ -9,9 +9,7 @@ This project implements various data structures and algorithms related to sortin
 - [Task 2: Graph ADT Implementation](#task-2-graph-adt-implementation)
 - [Task 3: Search Algorithms](#task-3-search-algorithms)
 - [Task 4: Dijkstra's Algorithm](#task-4-dijkstras-algorithm)
-- [How to Run the Project](#how-to-run-the-project)
 - [Experiments and Results](#experiments-and-results)
-- [Contributors](#contributors)
 
 ## Task 1: Quicksort Implementation
 
@@ -37,7 +35,7 @@ This project implements various data structures and algorithms related to sortin
 - Utilized a priority queue for efficient edge relaxation.
 
 
-# Experiment
+## Experiments-and-results
 Hybrid Sorting Algorithm: QuickSort with switch to Insert Sort
 ## Introduction
 This project implements a hybrid sorting algorithm that combines QuickSort with Insertion Sort or Heap Sort. The goal is to improve the efficiency of QuickSort by switching to a more suitable sorting algorithm at a certain recursion depth or subarray size. Specifically, QuickSort is efficient for larger lists, but for small subarrays, Insertion Sort and Heap Sort have lower overhead and perform better.
